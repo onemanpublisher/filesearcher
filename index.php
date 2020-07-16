@@ -30,7 +30,7 @@
         </div>
         <div id="logo" class="typ_cen">
             <img src="https://onemanpublisher.com/img/brand/logo_small_black.png" id="logo-img" alt="File Searcher">
-            <h2>File Searcher powered by <a href="https://onemanpublisher.com">onemanpublisher</a></h2>
+            <h2>File Searcher</h2>
             <div id="google_search">
                 <!-- Search on Google -->
                 <form action="https://search.filesearcher.online/index.html?q=<?php echo $_POST['q'];?>&cx=<?php echo $_POST['cx']; ?>&filetype=<?pgp echo $_POST['filetype'];?>" id="cse-search-box" target="_top" method="get">
