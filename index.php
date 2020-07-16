@@ -4,6 +4,22 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <link rel="stylesheet" href="css/main.css" type="text/css" media="all" charset="utf-8" />
         <title>File Searcher</title>
+	<script type="text/javascript">
+  		var _paq = window._paq || [];
+  		/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  		_paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  		_paq.push(["setCookieDomain", "*.filesearcher.online"]);
+  		_paq.push(['trackPageView']);
+  		_paq.push(['enableLinkTracking']);
+  		(function() {
+    			var u="//webstats.onemanpublisher.com/";
+    			_paq.push(['setTrackerUrl', u+'matomo.php']);
+    			_paq.push(['setSiteId', '2']);
+    			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    			g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+ 		 })();
+	</script>
+	<noscript><p><img src="//webstats.onemanpublisher.com/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
     </head>
     <body>
         <div id="nav">
