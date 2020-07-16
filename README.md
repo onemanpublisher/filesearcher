@@ -7,3 +7,5 @@
     <a href="https://GitHub.com/onemanpublisher/filesearcher/issues/"><img src="https://img.shields.io/github/issues/onemanpublisher/filesearcher.svg"></a>
     <a href="https://GitHub.com/onemanpublisher/filesearcher/releases/"><img src="https://img.shields.io/github/release/onemanpublisher/filesearcher.svg" alt="Latest Stable Version"></a>
 </p>
+
+<b>Filesearcher</b> is a Search Engine for files like PDF or XLS based on the Google CSE API
