@@ -1,4 +1,4 @@
-# omp-page
+# filesearcher
 
 <p align="center">
     <a href="https://GitHub.com/onemanpublisher/filesearcher/graphs/contributors/"><img src="https://img.shields.io/github/contributors/onemanpublisher/filesearcher.svg"></a>
