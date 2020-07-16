@@ -1,0 +1,26 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            function getParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, '\\$&');
+                var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                    results = regex.exec(url);
+                if(!results) return null;
+                if(!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, ' '));
+            }
+        </script>
+        <script>
+            var url = "https://cse.google.com/cse?q=";
+            var q = getParameterByName('q');
+            var extra = "%20filetype:";
+            var filetype = getParameterByName('filetype');
+            var extra2 = "&cx=";
+            var cx = getParameterByName('cx');
+            window.location.href = url+q+extra+filetype+extra2+cx;
+        </script>
+    </body>
+</html>
